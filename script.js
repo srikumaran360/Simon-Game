@@ -47,7 +47,7 @@ function checkAnswer(index)
   {
     if(user_pattern.length===pattern.length)
     {
-      setTimeout(generate_pattern,1000);
+      setTimeout(function(){generate_pattern();},1000);
     }
   }
   else
